@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(232, 120, 120, 0.15),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(216, 202, 202, 0.15),
+      transparent 30%
+    ),
+    #0a0413;
+
+  color: white;
+}
+
+.glow {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgba(67, 123, 214, 0.08);
+  filter: blur(120px);
+  z-index: -1;
+}
