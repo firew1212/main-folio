@@ -1,4 +1,48 @@
 export const projects = [
+  
+  {
+    title: "Barber booking and queue system",
+
+    category: "Full Stack Business Application",
+
+    description:
+      "A complete barber management ecosystem that digitizes , booking, queue management, and internal workflows.",
+
+
+    problem:
+      "barber often rely on manual processes causing increase queue, inefficient place to sit , lose of time to wait queue.",
+
+
+    solution:
+      "Designed and developed a centralized platform that connects barber status into customer and can book at everywhere .",
+
+
+    architecture: [
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "PostgreSQL",
+      "Prisma",
+      "REST API",
+      "JWT Authentication",
+      "RBAC"
+    ],
+
+
+    results:
+      "Created a complete operational system replacing manual barber workflows with a structured digital platform.",
+
+
+    links: {
+  live: "https://agewmidr.vercel.app",
+  github: "https://github.com/firew1212/gech-barber-frontend"
+  
+},
+
+
+    image: "/projects/barber.jpg"
+  },
+
   {
     title: "Hotel Management System (PMS)",
 
@@ -40,5 +84,5 @@ export const projects = [
 
 
     image: "/projects/hotel-pms.jpg"
-  }
+  },
 ];
