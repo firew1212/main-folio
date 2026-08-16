@@ -6,11 +6,11 @@ export const projects = [
     category: "Full Stack Business Application",
 
     description:
-      "A complete barber management ecosystem that digitizes , booking, queue management, and internal workflows.",
+      "A full barber booking and queue status tracking system.",
 
 
     problem:
-      "barber often rely on manual processes causing increase queue, inefficient place to sit , lose of time to wait queue.",
+      "Losing unnecessary time of customers and waiting a lot until his queue ",
 
 
     solution:
@@ -30,7 +30,7 @@ export const projects = [
 
 
     results:
-      "Created a complete operational system replacing manual barber workflows with a structured digital platform.",
+      "Created a complete operational system replacing manual barber workflows with a structured digital platform and digital queue .",
 
 
     links: {
